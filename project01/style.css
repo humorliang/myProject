@@ -1,0 +1,24 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.warp {
+    text-align: center;
+}
+
+.warp>div {
+    display: inline-block;
+    width: calc(33.33% - 20px);
+    margin: 5px;
+    /*padding根据宽度自适应*/
+    padding-bottom: calc(33.33% - 20px);
+    background: #f90;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
