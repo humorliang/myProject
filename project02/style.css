@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+/*全局样式*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /*font-size: 62.5%; 相当于10px ==> 10/16*100%=62.5% */
+}
+
+body {
+    font-family: "黑体", "微软雅黑";
+}
+
+
+/*头部样式*/
+
+header {
+    background-color: #333;
+    height: 40px;
+    line-height: 40px;
+}
+
+.warp {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.left {
+    display: table-cell;
+    width: 55px;
+    background: url("images/task3_03.png") no-repeat 5px 12px;
+    background-size: auto 16px;
+    font-size: 17px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.center {
+    display: table-cell;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.right {
+    display: table-cell;
+    width: 23px;
+    padding-right: 5px;
+}
+
+.right>img {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*内容部分*/
+
+.content-warp {
+    background: #53a4aa;
+}
+
+.content {
+    width: 80%;
+    height: 605px;
+    margin: 0 auto;
+    position: relative;
+}
+.return{
+    position: relative;
+    left: -35px;
+    display: block;
+    padding-top: 10px;
+    width: 34px;
+}
+.logo{
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+}
+p{
+    padding: 30px 0 60px 0;
+    font: 14px;
+    color: #fff;
+}
+.content-left{
+    position: absolute;
+    left: 0;
+    width: 100px;
+    text-align:center; 
+}
+.content-left img:nth-child(1){
+    width: 60px;
+}
+.content-left img:nth-child(2){
+    width: 70px;
+}
+.content-right{
+    position: absolute;
+    right: 0;
+    width: 100px;
+    text-align: center;
+}
+.content-right img:nth-child(1){
+    width: 60px;
+}
+.content-right img:nth-child(2){
+    width: 70px;
+}

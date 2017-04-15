@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .warp {
+            width: 100%;
+            display:table;
+            table-layout: fixed; 
+        }
+
+        .left {
+            width: 100px;
+            background-color: #674;
+            display: table-cell;
+        }
+
+        .center {
+            display: table-cell;
+            text-align: center;
+            background: #876;
+        }
+
+        .right {
+            width: 100px;
+            display: table-cell;
+            background: #899;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="warp">
+        <div class="left">1</div>
+        <div class="center">2</div>
+        <div class="right">3</div>
+    </div>
+</body>
+
+</html>
