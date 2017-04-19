@@ -4,45 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--淘宝手机布局方案动态改变html:font-size-->
+    <title>护工主页</title>
+    <!--淘宝适配结局方案-->
     <script src="js/flexible_css.debug.js"></script>
     <script src="js/flexible.debug.js"></script>
-    <title>护工主页</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-
+    <!--设置字体样式-->
+    <!--<style>
+        [data-dpr="2"] div {
+            font-size: 24px;
+        }
+        [data-dpr="3"] div {
+            font-size: 36px;
+        }
+    </style>-->
 </head>
 
 <body>
     <header>
-        <a href="#" class="header-return"></a>
-        <h1>个人主页</h1>
+        <a class="header-icon" href="#"></a>
+        <h1>护工主页</h1>
     </header>
-    <section class="person-details">
-        <a href="#">
-            <img class="head-pic" src="images/task5-1_03.png"></img>
-        </a>
-        <div class="name-age">
-            <span class="name">高素雅</span>
-            <span class="age">51岁</span>
+    <section class="user-introduce">
+        <div class="user-pic">
+            <img src="images/task5-1_036.png" alt="头像">
         </div>
-        <address>
-            北京.通州.果园
-        </address>
+        <div class="user-info">
+            <p class="user-name">高素雅<span>51岁</span></p>
+            <p class="user-addres">北京.通州.果园</p>
+        </div>
     </section>
-    <section class="major-skill">
-        <header>
-            <h2>专业技能</h2>
-        </header>
-        <ul>
-            <li><a href="#">住家</a><a href="#">不含餐</a></li>
-            <li><span>从业年限</span><a href="#">0~3年</a></li>
-            <li><span>工作时间</span><a href="#">全天</a></li>
-            <li><span>服务价格</span><a href="#">25元/小时</a></li>
-            <li><span>自我介绍</span><span>可以洗衣,做饭,照顾老人。在护工方面有五年的工作经验,经验丰富。</span></li>
-        </ul>
+    <section class="user-form">
+        <div class="user-form-title">
+            <span>专业技能</span>
+        </div>
+        <div class="user-form-list">
+            <ul>
+                <li>
+                    <div class="form-list-1">
+                        <span>住家</span><span>不含餐</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="form-list-2">
+                        <div class="list-2-year">从业年限</div>
+                        <div class="list-year-warp">
+                            <p>0-3年</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="form-list-3">
+                        <div class="list-2-time">工作时间</div>
+                        <div class="list-time-warp">
+                            <p>全天</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="form-list-4">
+                        <div class="list-4-price">服务价格</div>
+                        <div class="list-price-warp">
+                            <p>25元/小时</p>
+                        </div>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="form-list-5">
+                        <div class="list-5-introduce">自我介绍</div>
+                        <div class="list-introduce-warp">
+                            <p>我擅长洗衣做饭、照顾老人、不偷懒、我有五年的工作经验,经验丰富。</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </section>
     <footer>
-        <a href="#">留言</a><a href="#">电话联系</a>
+        <input type="button" value="留言">
+        <input type="button" value="电话联系">
     </footer>
 
 </body>
