@@ -6,3 +6,6 @@
 - 03 [手机登陆页面](project03/index.html)
 - 04 [护工主页](project04/index.html)
 - 05 [护工列表](project05/index.html)
+## pc端小项目
+- 01 [麦子学院首页](project06/index.html)
+- 02 [博客首页](project07/index.html)
